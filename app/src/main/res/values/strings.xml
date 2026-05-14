@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App -->
+    <string name="app_name">Jan-Aushadhi Finder</string>
+    <string name="app_tagline">Affordable Healthcare for All</string>
+    <string name="splash_initiative">A Government of India Initiative\nPradhan Mantri Bhartiya Janaushadhi Pariyojana</string>
+
+    <!-- About -->
+    <string name="about_title">About Jan-Aushadhi</string>
+    <string name="about_description">The Pradhan Mantri Bhartiya Janaushadhi Pariyojana (PMBJP) is a campaign launched by the Government of India to provide quality generic medicines at affordable prices to all citizens through dedicated outlets known as Jan-Aushadhi Kendras.</string>
+    <string name="about_version">Version 1.0</string>
+    <string name="about_disclaimer">This app is for informational purposes only. Always consult your doctor before switching medicines.</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_stores">Stores</string>
+    <string name="nav_reminders">Reminders</string>
+
+    <!-- Home Screen -->
+    <string name="home_welcome">Welcome to</string>
+    <string name="home_title">Jan-Aushadhi Finder</string>
+    <string name="home_subtitle">Find affordable generic medicines and nearby Jan-Aushadhi Kendras</string>
+    <string name="home_search_hint">Search medicines by name or salt…</string>
+    <string name="home_quick_actions">Quick Actions</string>
+    <string name="home_find_medicines">Find Medicines</string>
+    <string name="home_find_medicines_desc">Search &amp; compare prices</string>
+    <string name="home_find_stores">Find Stores</string>
+    <string name="home_find_stores_desc">Nearby Jan-Aushadhi Kendras</string>
+    <string name="home_savings">Savings Calculator</string>
+    <string name="home_savings_desc">See how much you save</string>
+    <string name="home_favorites">My Favorites</string>
+    <string name="home_favorites_desc">Quick access medicines</string>
+    <string name="home_emergency">Emergency Medicines</string>
+    <string name="home_emergency_desc">Essential medicines list</string>
+    <string name="home_reminders_action">Reminders</string>
+    <string name="home_reminders_desc">Medicine refill alerts</string>
+    <string name="home_did_you_know">Did You Know?</string>
+    <string name="home_fact_1">Jan-Aushadhi medicines are 50–90% cheaper than branded equivalents!</string>
+    <string name="home_fact_2">Over 1800+ medicines are available at Jan-Aushadhi Kendras across India.</string>
+    <string name="home_fact_3">Generic medicines have the same quality, safety, and efficacy as branded ones.</string>
+    <string name="home_popular_searches">Popular Searches</string>
+    <string name="home_recent_searches">Recent Searches</string>
+    <string name="home_total_medicines">500+</string>
+    <string name="home_total_medicines_label">Medicines</string>
+    <string name="home_total_stores">9000+</string>
+    <string name="home_total_stores_label">Stores</string>
+    <string name="home_avg_savings">50-90%</string>
+    <string name="home_avg_savings_label">Savings</string>
+
+    <!-- Search Screen -->
+    <string name="search_title">Search Medicines</string>
+    <string name="search_hint">Enter medicine name or salt composition…</string>
+    <string name="search_results">Search Results</string>
+    <string name="search_no_results">No medicines found. Try a different search term.</string>
+    <string name="search_filter_all">All</string>
+    <string name="search_filter_pain">Pain Relief</string>
+    <string name="search_filter_antibiotics">Antibiotics</string>
+    <string name="search_filter_cardiac">Cardiac</string>
+    <string name="search_filter_diabetes">Diabetes</string>
+    <string name="search_filter_gi">GI</string>
+    <string name="search_filter_respiratory">Respiratory</string>
+    <string name="search_filter_derma">Dermatology</string>
+    <string name="search_filter_vitamins">Vitamins</string>
+    <string name="search_filter_emergency">Emergency</string>
+    <string name="search_clear_history">Clear History</string>
+
+    <!-- Medicine Detail -->
+    <string name="detail_title">Medicine Details</string>
+    <string name="detail_generic_name">Generic Name</string>
+    <string name="detail_brand_name">Brand Name</string>
+    <string name="detail_salt_composition">Salt Composition</string>
+    <string name="detail_brand_price">Brand Price</string>
+    <string name="detail_generic_price">Generic Price</string>
+    <string name="detail_savings">You Save</string>
+    <string name="detail_savings_percent">Savings Percentage</string>
+    <string name="detail_category">Category</string>
+    <string name="detail_manufacturer">Manufacturer</string>
+    <string name="detail_description">Description</string>
+    <string name="detail_add_favorite">Add to Favorites</string>
+    <string name="detail_remove_favorite">Remove from Favorites</string>
+    <string name="detail_set_reminder">Set Reminder</string>
+    <string name="detail_find_store">Find Nearby Store</string>
+    <string name="detail_check_stock">Check Stock</string>
+    <string name="detail_price_comparison">Price Comparison</string>
+
+    <!-- Store Locator -->
+    <string name="store_title">Nearby Stores</string>
+    <string name="store_subtitle">Jan-Aushadhi Kendras within 10 km</string>
+    <string name="store_directions">Get Directions</string>
+    <string name="store_call">Call</string>
+    <string name="store_open">Open Now</string>
+    <string name="store_closed">Closed</string>
+    <string name="store_km_away">km away</string>
+    <string name="store_check_stock">Check Stock</string>
+    <string name="store_request_stock">Request Stock</string>
+    <string name="store_stock_available">✓ Available</string>
+    <string name="store_stock_unavailable">✗ Out of Stock</string>
+    <string name="store_stock_checking">Checking availability…</string>
+    <string name="store_stock_request_sent">Stock inquiry sent successfully!</string>
+    <string name="store_no_nearby">No stores found within 10 km radius</string>
+    <string name="store_location_permission">Location permission is required to find nearby stores</string>
+    <string name="store_enable_location">Please enable location services</string>
+
+    <!-- Reminders -->
+    <string name="reminder_title">Medicine Reminders</string>
+    <string name="reminder_subtitle">Monthly refill reminders</string>
+    <string name="reminder_add">Add Reminder</string>
+    <string name="reminder_medicine_name">Medicine Name</string>
+    <string name="reminder_medicine_hint">Enter medicine name</string>
+    <string name="reminder_date">Refill Date</string>
+    <string name="reminder_time">Reminder Time</string>
+    <string name="reminder_frequency">Frequency</string>
+    <string name="reminder_monthly">Monthly</string>
+    <string name="reminder_weekly">Weekly</string>
+    <string name="reminder_daily">Daily</string>
+    <string name="reminder_save">Save Reminder</string>
+    <string name="reminder_cancel">Cancel</string>
+    <string name="reminder_delete">Delete</string>
+    <string name="reminder_edit">Edit</string>
+    <string name="reminder_saved">Reminder saved successfully!</string>
+    <string name="reminder_deleted">Reminder deleted</string>
+    <string name="reminder_empty">No reminders set. Tap + to add one.</string>
+    <string name="reminder_notification_title">Medicine Refill Reminder</string>
+    <string name="reminder_notification_text">Time to refill: %s</string>
+    <string name="reminder_channel_name">Medicine Reminders</string>
+    <string name="reminder_channel_desc">Notifications for medicine refill reminders</string>
+    <string name="reminder_notes">Notes (optional)</string>
+    <string name="reminder_notes_hint">Add any notes…</string>
+
+    <!-- Savings Calculator -->
+    <string name="savings_title">Savings Calculator</string>
+    <string name="savings_subtitle">See how much you save with generics</string>
+    <string name="savings_add_medicine">Add Medicine</string>
+    <string name="savings_total_branded">Total Branded Cost</string>
+    <string name="savings_total_generic">Total Generic Cost</string>
+    <string name="savings_total_saved">Total Savings</string>
+    <string name="savings_monthly">Monthly Savings</string>
+    <string name="savings_yearly">Yearly Savings</string>
+    <string name="savings_percentage">Savings %</string>
+    <string name="savings_empty">Add medicines to calculate savings</string>
+    <string name="savings_clear_all">Clear All</string>
+
+    <!-- Favorites -->
+    <string name="favorites_title">My Favorites</string>
+    <string name="favorites_empty">No favorite medicines yet.\nSearch and add medicines to favorites!</string>
+    <string name="favorites_removed">Removed from favorites</string>
+    <string name="favorites_added">Added to favorites</string>
+
+    <!-- Common -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="close">Close</string>
+    <string name="retry">Retry</string>
+    <string name="loading">Loading…</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="rupee_symbol">₹</string>
+    <string name="price_format">₹%.2f</string>
+    <string name="percentage_format">%.0f%%</string>
+    <string name="share_medicine">Check out %s on Jan-Aushadhi Finder! Generic alternative saves you ₹%.0f</string>
+</resources>

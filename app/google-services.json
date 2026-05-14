@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "828429618077",
+    "project_id": "jan-aushadhi-finder-954d5",
+    "storage_bucket": "jan-aushadhi-finder-954d5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:828429618077:android:26a1acb78765654eb83d74",
+        "android_client_info": {
+          "package_name": "com.janaushadhi.finder"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHeJwHaPPBPOz_JL6lyvxjVPlwhw0bHvk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

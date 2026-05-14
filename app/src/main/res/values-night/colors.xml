@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors - Medical Blue (slightly brighter for dark mode) -->
+    <color name="primary">#FF42A5F5</color>
+    <color name="primary_dark">#FF1565C0</color>
+    <color name="primary_light">#FF90CAF9</color>
+    <color name="primary_variant">#FF64B5F6</color>
+
+    <!-- Secondary Colors - Health Green -->
+    <color name="secondary">#FF66BB6A</color>
+    <color name="secondary_dark">#FF2E7D32</color>
+    <color name="secondary_light">#FFA5D6A7</color>
+    <color name="secondary_variant">#FF81C784</color>
+
+    <!-- Accent - Savings Orange -->
+    <color name="accent">#FFFFA726</color>
+    <color name="accent_light">#FFFFCC80</color>
+
+    <!-- Backgrounds -->
+    <color name="background">#FF121212</color>
+    <color name="surface">#FF1E1E1E</color>
+    <color name="card_background">#FF252525</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#FFECECEC</color>
+    <color name="text_secondary">#FFB0B0B0</color>
+    <color name="text_hint">#FF757575</color>
+    <color name="text_on_primary">#FF000000</color>
+    <color name="text_on_secondary">#FF000000</color>
+
+    <!-- Status Colors -->
+    <color name="success">#FF66BB6A</color>
+    <color name="error">#FFEF5350</color>
+    <color name="warning">#FFFFCA28</color>
+    <color name="info">#FF4FC3F7</color>
+
+    <!-- Savings Colors -->
+    <color name="savings_green">#FF69F0AE</color>
+    <color name="brand_price_red">#FFEF9A9A</color>
+    <color name="generic_price_green">#FFA5D6A7</color>
+
+    <!-- Store Status -->
+    <color name="store_open">#FF66BB6A</color>
+    <color name="store_closed">#FFEF5350</color>
+
+    <!-- Gradient Colors -->
+    <color name="gradient_start">#FF1565C0</color>
+    <color name="gradient_end">#FF0D47A1</color>
+    <color name="gradient_green_start">#FF2E7D32</color>
+    <color name="gradient_green_end">#FF1B5E20</color>
+
+    <!-- Chip Colors -->
+    <color name="chip_background">#FF1A3A5C</color>
+    <color name="chip_text">#FF90CAF9</color>
+
+    <!-- Divider -->
+    <color name="divider">#FF333333</color>
+
+    <!-- Shimmer -->
+    <color name="shimmer_base">#FF333333</color>
+    <color name="shimmer_highlight">#FF444444</color>
+
+    <!-- Bottom Nav -->
+    <color name="bottom_nav_bg">#FF1E1E1E</color>
+    <color name="bottom_nav_active">#FF42A5F5</color>
+    <color name="bottom_nav_inactive">#FF757575</color>
+
+    <!-- Search Bar -->
+    <color name="search_bg">#FF2A2A2A</color>
+    <color name="search_text">#FFECECEC</color>
+
+    <!-- Rating Star -->
+    <color name="star_filled">#FFFFCA28</color>
+    <color name="star_empty">#FF555555</color>
+
+    <!-- Ripple -->
+    <color name="ripple_color">#1F42A5F5</color>
+</resources>

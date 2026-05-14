@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_home">
+
+    <!-- Home Fragment -->
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.janaushadhi.finder.ui.home.HomeFragment"
+        android:label="@string/nav_home"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_home_to_search"
+            app:destination="@id/nav_search"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+
+        <action
+            android:id="@+id/action_home_to_stores"
+            app:destination="@id/nav_stores" />
+
+        <action
+            android:id="@+id/action_home_to_savings"
+            app:destination="@id/nav_savings" />
+
+        <action
+            android:id="@+id/action_home_to_favorites"
+            app:destination="@id/nav_favorites" />
+
+        <action
+            android:id="@+id/action_home_to_detail"
+            app:destination="@id/nav_medicine_detail" />
+    </fragment>
+
+    <!-- Search Fragment -->
+    <fragment
+        android:id="@+id/nav_search"
+        android:name="com.janaushadhi.finder.ui.search.SearchFragment"
+        android:label="@string/nav_search"
+        tools:layout="@layout/fragment_search">
+
+        <action
+            android:id="@+id/action_search_to_detail"
+            app:destination="@id/nav_medicine_detail"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <!-- Medicine Detail Fragment -->
+    <fragment
+        android:id="@+id/nav_medicine_detail"
+        android:name="com.janaushadhi.finder.ui.detail.MedicineDetailFragment"
+        android:label="@string/detail_title"
+        tools:layout="@layout/fragment_medicine_detail">
+
+        <argument
+            android:name="medicineId"
+            app:argType="integer" />
+
+        <action
+            android:id="@+id/action_detail_to_stores"
+            app:destination="@id/nav_stores" />
+    </fragment>
+
+    <!-- Store Locator Fragment -->
+    <fragment
+        android:id="@+id/nav_stores"
+        android:name="com.janaushadhi.finder.ui.store.StoreLocatorFragment"
+        android:label="@string/nav_stores"
+        tools:layout="@layout/fragment_store_locator" />
+
+    <!-- Reminders Fragment -->
+    <fragment
+        android:id="@+id/nav_reminders"
+        android:name="com.janaushadhi.finder.ui.reminder.ReminderFragment"
+        android:label="@string/nav_reminders"
+        tools:layout="@layout/fragment_reminder" />
+
+    <!-- Savings Calculator Fragment -->
+    <fragment
+        android:id="@+id/nav_savings"
+        android:name="com.janaushadhi.finder.ui.savings.SavingsFragment"
+        android:label="@string/savings_title"
+        tools:layout="@layout/fragment_savings">
+
+        <action
+            android:id="@+id/action_savings_to_search"
+            app:destination="@id/nav_search" />
+
+        <action
+            android:id="@+id/action_savings_to_detail"
+            app:destination="@id/nav_medicine_detail" />
+    </fragment>
+
+    <!-- Favorites Fragment -->
+    <fragment
+        android:id="@+id/nav_favorites"
+        android:name="com.janaushadhi.finder.ui.favorites.FavoritesFragment"
+        android:label="@string/favorites_title"
+        tools:layout="@layout/fragment_favorites">
+
+        <action
+            android:id="@+id/action_favorites_to_detail"
+            app:destination="@id/nav_medicine_detail" />
+    </fragment>
+
+</navigation>
